@@ -76,9 +76,8 @@ DISABLE_AUTO_UPDATE="true"
 plugins=(
 git
 zsh-autosuggestions
-macos
-web-search
 zsh-syntax-highlighting
+web-search
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -136,7 +135,7 @@ alias vim="nvim"
 #eval "$(zoxide init zsh)"
 
 # rtx
-#eval "$(rtx activate zsh)"
+eval "$(rtx activate zsh)"
 
 # starship
 #eval "$(starship init zsh)"
