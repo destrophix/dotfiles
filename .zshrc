@@ -8,7 +8,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="Simple"
+ZSH_THEME="robbyrussell"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -113,19 +113,19 @@ source $ZSH/oh-my-zsh.sh
 alias ktl="kubectl"
 alias tf="terraform"
 alias dc="docker"
-alias ls="lsd -lah"
-alias cd="z"
-alias arm="env /usr/bin/arch -arm64 /bin/zsh --login"
-alias intel="env /usr/bin/arch -x86_64 /bin/zsh --login"
+#alias ls="lsd -lah"
+#alias cd="z"
+#alias arm="env /usr/bin/arch -arm64 /bin/zsh --login"
+#alias intel="env /usr/bin/arch -x86_64 /bin/zsh --login"
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 alias vim="nvim"
 
 # Pyenv
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
+#eval "$(pyenv init -)"
+#eval "$(pyenv virtualenv-init -)"
 
 ### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
-export PATH="/Users/amitb/.rd/bin:$PATH"
+#export PATH="/Users/amitb/.rd/bin:$PATH"
 ### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
 
 # To install useful key bindings and fuzzy completion:
@@ -133,11 +133,10 @@ export PATH="/Users/amitb/.rd/bin:$PATH"
 #[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # zoxide setup
-eval "$(zoxide init zsh)"
+#eval "$(zoxide init zsh)"
 
 # rtx
-eval "$(rtx activate zsh)"
+#eval "$(rtx activate zsh)"
 
 # starship
-eval "$(starship init zsh)"
-
+#eval "$(starship init zsh)"
