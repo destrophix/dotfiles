@@ -118,7 +118,7 @@ alias cd="z"
 alias arm="env /usr/bin/arch -arm64 /bin/zsh --login"
 alias intel="env /usr/bin/arch -x86_64 /bin/zsh --login"
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
-# alias vim="nvim"
+alias vim="nvim"
 
 # Pyenv
 eval "$(pyenv init -)"
