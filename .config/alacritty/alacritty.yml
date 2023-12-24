@@ -28,9 +28,6 @@ window:
   #
   # Blank space added around the window in pixels. This padding is scaled
   # by DPI and the specified value is always added at both opposing sides.
-  padding:
-    x: 6
-    y: 6
 
   # Spread additional padding evenly around the terminal content.
   dynamic_padding: false
@@ -39,7 +36,7 @@ window:
   #
   # Window opacity as a floating point number from `0.0` to `1.0`.
   # The value `0.0` is completely transparent and `1.0` is opaque.
-  opacity: 0.93
+  opacity: 0.9
 
   # Window decorations
   #
@@ -653,8 +650,6 @@ live_config_reload: true
 # Send ESC (\x1b) before characters when alt is pressed
 #alt_send_esc: true
 
-window:
-  option_as_alt: Both
 #debug:
   # Display the time it takes to redraw each frame.
   #render_timer: false
